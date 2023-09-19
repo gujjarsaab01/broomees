@@ -11,7 +11,7 @@ const {initDB} = require('./config/mongoose')
 
 
 //server static files
-app.use('/', express.static('public'));
+app.use('/', express.static('./public'));
 //middlwware for parse JSON data
 app.use(express.json());
 
