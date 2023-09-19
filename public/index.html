@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bromees Front-End</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.min.css
+" rel="stylesheet">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+  </head>
+  <body>
+    <div class="container mt-5 h-100 w-75  rounded-2 bg-secondary-subtle">
+      <div class="row  position-relative rounded-2  bg">
+        <div class="position-absolute z-1 rounded-2 text-center w-50 mb-5 overflow-hidden rounded-end-0 d-none d-md-block ">
+          <p class="text-white-50 fs-1 mt-5 animated-text text-wrap font-monospace">Altitude Air</p>
+          <p class="text-white-50 text-wrap fs-5 m-1 p-2 font-monospace animated-text">
+            We promise to ensure that your well-being is taken care of while
+            travelling with us. Boosting top in class float invantory and a 5
+            star approval ofr our in-flight experience. you know youre getting
+            the best from Altitude witn no attitude.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12 p-0  rounded-2  position-relative  ">
+          <img class="h-100 w-100 d-none d-md-block " src="./images/image-2.png" alt="aeroplane" />
+        </div>
+        <div class="col-md-6 col-sm-12  p-2">
+          <form
+            class="row g-4 p-5 animated-text"
+            id="registration-form"
+            action="/api/register"
+            method="POST"
+          >
+            <div class="position-relative m-0">
+              <button
+                type="submit"
+                class="btn btn-sm btn-outline-primary position-absolute top-0 end-0 me-3 font-monospace  "
+              >
+                SIGN IN
+              </button>
+            </div>
+            <div>
+              <p class="fs-1  fw-bolder m-0 text-sm animated-text font-color">
+                Explore & Experience
+              </p>
+              <p class="fw-semibold fs-6 font-color text-sm text-wrap animated-text">
+                Get onto your comfortable journey yet.All the way up.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+                id="first_name"
+              />
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <input type="text" class="form-control" placeholder="Last Name" id="last_name" />
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control" placeholder="Email" id="email" />
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Username" id="username" />
+            </div>
+            <div class="col-12">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                id="password"
+                autocomplete="new-password"
+              />
+            </div>
+
+            <div class="col-12">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Confirm Password"
+                id="confirm_password"
+                autocomplete="new-password"
+              />
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary w-100 font-monospace">
+                GET STARTED
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+  <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.all.min.js
+"></script
+</html>
