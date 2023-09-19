@@ -4,7 +4,7 @@
   "description": "Assignment using HTML JS CSS Nodejs Mongoose having CRUD operation",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/index.js",
+    "start": "nodemon ./server/index.js"
      
   },
   "repository": {
